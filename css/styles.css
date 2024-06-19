@@ -77,5 +77,24 @@ ul {
   list-style: none;
 }
 
+#character-list {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 25px;
+}
 
+#character-list div {
+  padding: 15px;
+  border: solid 1px rgb(194, 189, 189);
+  border-radius: 5px;
+}
 
+h2 {
+  font-size: 17px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+span {
+  font-weight: bold;
+}
